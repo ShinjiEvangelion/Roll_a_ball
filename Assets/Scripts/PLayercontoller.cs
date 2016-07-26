@@ -42,7 +42,7 @@ public class PLayercontoller : MonoBehaviour {
 	void SetCountText ()
 	{
 		countText.text = "Count: " + count.ToString ();
-		if (count >= 9)
+		if (count >= 10)
 		{
 			winText.text = "Yeet.";
 		}
